@@ -16,6 +16,6 @@
         <item name="android:windowTranslucentNavigation">false</item>
     </style>
     <style name="TimePicker" parent="android:Theme.Material.Light.Dialog">
-        <item name="android:colorAccent">#FFA200</item>
+        <item name="android:colorAccent">@color/fondo</item>
     </style>
 </resources>

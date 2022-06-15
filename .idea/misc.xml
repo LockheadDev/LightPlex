@@ -19,8 +19,30 @@
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/layout/timepicker_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/layout/timer_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2405" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.2072310405643739" />
+        <entry key="app/src/main/res/layout-land/control_layout.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/custom_layout.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_custom.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_dimmer.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_menu.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_morse.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_splash.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/morse_layout.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/timepicker_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/control_layout.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/custom_layout.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/fragment_custom.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/fragment_dimmer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_morse.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/morse_layout.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/timepicker_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

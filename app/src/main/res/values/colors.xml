@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Primary">#FFA200</color>
     <color name="lighprimary">#FFD70D</color>
+    <color name="fondo">#FFA200</color>
 </resources>
