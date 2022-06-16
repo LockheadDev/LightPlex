@@ -5,4 +5,14 @@
     <string name="lightplexversion">LightPlex v0.0.1</string>
     <string name="fab">fab</string>
     <string name="Toggle">Toggle</string>
+    <string name="morseAlf">Morse to Alphabetic</string>
+    <string name="hintA">Alphabetic</string>
+    <string name="alfMorse">Alphabetic to Morse</string>
+    <string name="trad">Morse Translator</string>
+    <string name="otraP">ANOTHER WORD</string>
+    <string name="lin">LINE</string>
+    <string name="pun">DOT</string>
+    <string name="nuevaL">NEW LETTER</string>
+    <string name="nuevaF">NEW PHRASE</string>
+    <string name="tradu">TRANSLATE</string>
 </resources>

@@ -6,32 +6,157 @@
     android:layout_height="match_parent"
     tools:context=".fragments.MorseFragment">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/morsefab"
+    <TextView
+        android:id="@+id/indicadortraductext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
-        android:clickable="true"
-        android:contentDescription="@string/fab"
-        android:scaleX="1.25"
-        android:scaleY="1.25"
-        android:src="@drawable/fab2"
-        app:backgroundTint="@color/lighprimary"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="140dp"
+        android:text= "@string/morseAlf"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alphaText"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <EditText
+        android:id="@+id/alphaText"
+        android:layout_width="396dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint= "@string/hintA"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:editable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/morserecyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="16dp"
+    <TextView
+        android:id="@+id/indicadortraductext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/alfMorse"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alphaText"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trad"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/alphaText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/nuevapalabraboton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otraP"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toEndOf="@+id/espacioboton"
+        app:layout_constraintTop_toBottomOf="@+id/lineaboton"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/lineaboton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:text="@string/lin"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morsetext" />
+
+    <Button
+        android:id="@+id/puntobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pun"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/lineaboton"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morsetext" />
+
+    <Button
+        android:id="@+id/espacioboton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/nuevaL"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntobutton"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/morsetext"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:gravity="center"
+        android:text="Morse"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/alphaText"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <Button
+        android:id="@+id/clearboton"
+        android:layout_width="193dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/nuevaF"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nuevapalabraboton" />
+
+    <Button
+        android:id="@+id/traducirboton"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:text="@string/tradu"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alphaText"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <Switch
+        android:id="@+id/seleccionswitch"
+        android:layout_width="70dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/morsetext"
+        app:layout_constraintEnd_toStartOf="@+id/indicadortraductext2"
+        app:layout_constraintStart_toEndOf="@+id/indicadortraductext"
+        app:layout_constraintTop_toBottomOf="@+id/alphaText" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
