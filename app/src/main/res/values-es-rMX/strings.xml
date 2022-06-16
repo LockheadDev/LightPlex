@@ -16,4 +16,10 @@
     <string name="nuevaL">NUEVA LETRA</string>
     <string name="nuevaF">NUEVA FRASE</string>
     <string name="tradu">TRADUCIR</string>
+    <string name="cuentaN">crear cuenta</string>
+    <string name="contra">contraseña</string>
+    <string name="or">o</string>
+    <string name="titCreCu">crear cuenta</string>
+    <string name="confirmC">confirmar contraseña</string>
+    <string name="login">ENTRAR</string>
 </resources>

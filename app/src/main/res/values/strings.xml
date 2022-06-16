@@ -15,4 +15,11 @@
     <string name="nuevaL">NEW LETTER</string>
     <string name="nuevaF">NEW PHRASE</string>
     <string name="tradu">TRANSLATE</string>
+    <string name="cuentaN">create profile</string>
+    <string name="contra">password</string>
+    <string name="or">or</string>
+    <string name="titCreCu">create profile</string>
+    <string name="confirmC">confirm password</string>
+    <string name="login">LOGIN</string>
+
 </resources>
