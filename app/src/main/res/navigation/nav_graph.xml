@@ -58,7 +58,7 @@
         tools:layout="@layout/fragment_custom" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.lightplex.LoginFragment"
+        android:name="com.example.lightplex.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -70,7 +70,7 @@
     </fragment>
     <fragment
         android:id="@+id/registraUsuarioFragment"
-        android:name="com.example.lightplex.RegistraUsuarioFragment"
+        android:name="com.example.lightplex.fragments.RegistraUsuarioFragment"
         android:label="fragment_registra_usuario"
         tools:layout="@layout/fragment_registra_usuario" >
         <action

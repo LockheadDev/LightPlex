@@ -24,8 +24,10 @@
         <entry key="app/src/main/res/layout-land/custom_layout.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout-land/fragment_custom.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout-land/fragment_dimmer.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_login.xml" value="0.15696649029982362" />
         <entry key="app/src/main/res/layout-land/fragment_menu.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout-land/fragment_morse.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-land/fragment_registra_usuario.xml" value="0.15696649029982362" />
         <entry key="app/src/main/res/layout-land/fragment_splash.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout-land/morse_layout.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout-land/timepicker_layout.xml" value="0.335" />
@@ -34,8 +36,10 @@
         <entry key="app/src/main/res/layout/custom_layout.xml" value="0.11904761904761904" />
         <entry key="app/src/main/res/layout/fragment_custom.xml" value="0.11904761904761904" />
         <entry key="app/src/main/res/layout/fragment_dimmer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.18541666666666667" />
         <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_morse.xml" value="0.11904761904761904" />
+        <entry key="app/src/main/res/layout/fragment_registra_usuario.xml" value="0.18541666666666667" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/morse_layout.xml" value="0.11904761904761904" />
         <entry key="app/src/main/res/layout/timepicker_layout.xml" value="0.335" />
