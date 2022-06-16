@@ -75,7 +75,7 @@ class SplashFragment : Fragment() {
         } )
     }
     fun goToMainMenu(){
-        val action: NavDirections = SplashFragmentDirections.actionSplashFragmentToMenuFragment()
+        val action: NavDirections = SplashFragmentDirections.actionSplashFragmentToLoginFragment()
         findNavController().navigate(action)
 
     }

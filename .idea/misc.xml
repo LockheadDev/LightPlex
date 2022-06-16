@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout-land/control_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/control_layout.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/fragment_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/fragment_registra_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/Andre/Documents/TEC/8Semester/Android_apps/LightPlex/app/src/main/res/layout/fragment_splash.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3485" />
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3485" />
         <entry key="..\:/Users/hrswf/OneDrive/Docs/05_AndroidProjects/LightPlex/app/src/main/res/drawable/onoff.xml" value="0.3485" />
