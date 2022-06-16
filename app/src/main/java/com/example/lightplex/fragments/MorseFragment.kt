@@ -57,7 +57,7 @@ private fun InitBotones(){
         binding.morsetext?.text = binding.morsetext?.text.toString() + " "
     }
     binding.nuevapalabraboton?.setOnClickListener {
-        binding.morsetext?.text = binding.morsetext?.text.toString() + "/"
+        binding.morsetext?.text = binding.morsetext?.text.toString() + " / "
     }
     binding.seleccionswitch?.setOnCheckedChangeListener { compoundButton, b ->
         f_alf2morse =! b
