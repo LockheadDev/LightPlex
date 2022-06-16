@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774282051495",
+    "project_id": "lightplex-a8f4d",
+    "storage_bucket": "lightplex-a8f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774282051495:android:729f8fe172f1411234c082",
+        "android_client_info": {
+          "package_name": "com.example.lightplex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774282051495-iqsgf5hmc86vmtn30gt4ld29tkqhe7cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCegbMpkyi25TcNqBkz1aq_ar1BNlgQs9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774282051495-iqsgf5hmc86vmtn30gt4ld29tkqhe7cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
