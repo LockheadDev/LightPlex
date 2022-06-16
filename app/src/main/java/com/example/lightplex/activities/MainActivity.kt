@@ -1,5 +1,7 @@
 package com.example.lightplex.activities
 
+import android.content.Context
+import android.hardware.camera2.CameraManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lightplex.R

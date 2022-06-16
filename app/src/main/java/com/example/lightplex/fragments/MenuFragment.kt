@@ -1,5 +1,7 @@
 package com.example.lightplex.fragments
 
+import android.content.Context
+import android.hardware.camera2.CameraManager
 import com.example.lightplex.adapter.LightControlsAdapter
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.getSystemService
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
@@ -23,13 +26,18 @@ import com.example.lightplex.provider.LightControlsDataProvider
 //TODO Disable callback for splash Screen
 
 class MenuFragment : Fragment() {
+    lateinit var cameraManager : CameraManager
+    lateinit var cameraId : String
     private lateinit var binding : FragmentMenuBinding
+    var status: Boolean = false
     private var controles = mutableListOf<String>("onoff","dimmer","timer","morse","sos","custom")
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initAdapter(controles)
         initGUI()
+        cameraManager = activity?.getSystemService(Context.CAMERA_SERVICE) as CameraManager
+        cameraId = cameraManager.cameraIdList[0]
     }
 
     override fun onCreateView(
@@ -92,28 +100,26 @@ class MenuFragment : Fragment() {
         findNavController().navigate(action)
         // TODO Do layout
     }
-//ON OFF FUNCS
+    //ON OFF FUNCS
     private fun onoffBehaviour() {
-        //TODO Create behaviour
+        status = !status
+        cameraManager.setTorchMode(cameraId, status)
     }
-//SOS FUNCS
+    //SOS FUNCS
     private fun sosBehaviour() {
     //TODO Create behaviour
     }
-//DIMMER FUNCS
+    //DIMMER FUNCS
     private fun showDimmerFragment() {
     val action: NavDirections = MenuFragmentDirections.actionMenuFragmentToDimmerFragment()
     findNavController().navigate(action)
        // TODO Do layout
     }
-
-
     //TIMER FUNCS
-private fun showTimePickerDialog()
-{
-    val timePicker = TimePickerFragment { onTimeSelected(it) }
-    timePicker.show(parentFragmentManager, "timePicker")
-}
+    private fun showTimePickerDialog() {
+        val timePicker = TimePickerFragment { onTimeSelected(it) }
+        timePicker.show(parentFragmentManager, "timePicker")
+    }
     private fun onTimeSelected(time: String) {
         Toast.makeText(context, time, Toast.LENGTH_SHORT).show()
     }
