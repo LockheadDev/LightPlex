@@ -21,5 +21,6 @@
     <string name="titCreCu">create profile</string>
     <string name="confirmC">confirm password</string>
     <string name="login">LOGIN</string>
+    <string name="title_activity_flash_light_dimmer">FlashLightDimmer</string>
 
 </resources>

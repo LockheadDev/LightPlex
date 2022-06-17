@@ -1,6 +1,7 @@
 package com.example.lightplex.fragments
 
 import android.content.Context
+import android.content.Intent
 import android.hardware.camera2.CameraManager
 import com.example.lightplex.adapter.LightControlsAdapter
 import android.os.Bundle
@@ -14,6 +15,7 @@ import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lightplex.activities.FlashLightDimmer
 import com.example.lightplex.databinding.FragmentMenuBinding
 import com.example.lightplex.provider.LightControlsDataProvider
 
@@ -111,8 +113,11 @@ class MenuFragment : Fragment() {
     }
     //DIMMER FUNCS
     private fun showDimmerFragment() {
-    val action: NavDirections = MenuFragmentDirections.actionMenuFragmentToDimmerFragment()
-    findNavController().navigate(action)
+        val intent = Intent(context,FlashLightDimmer::class.java)
+        context?.startActivity(intent)
+
+    //val action: NavDirections = MenuFragmentDirections.actionMenuFragmentToDimmerFragment()
+    //findNavController().navigate(action)
        // TODO Do layout
     }
     //TIMER FUNCS
