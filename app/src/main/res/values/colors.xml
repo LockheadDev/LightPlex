@@ -11,4 +11,6 @@
     <color name="lighprimary">#FFD70D</color>
     <color name="fondo">#FFA200</color>
     <color name="tituloMorse">#FF000000</color>
+    <color name="botonl">#FF000000</color>
+    <color name="logint">#FFA200</color>
 </resources>

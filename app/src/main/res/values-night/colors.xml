@@ -3,5 +3,7 @@
     <color name="Primary">#FFA200</color>
     <color name="fondo">#FF000000</color>
     <color name="tituloMorse">#FFFFFF</color>
+    <color name="botonl">#FFBB86FC</color>
+    <color name="logint">#FFFFFF</color>
 
 </resources>

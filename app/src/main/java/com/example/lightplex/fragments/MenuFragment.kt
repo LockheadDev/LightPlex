@@ -55,7 +55,7 @@ class MenuFragment : Fragment() {
 
 
     var status: Boolean = false
-    private var controles = mutableListOf<String>("onoff","dimmer","timer","morse","sos","custom")
+    private var controles = mutableListOf<String>("onoff","dimmer","morse","sos","custom")
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -121,7 +121,6 @@ class MenuFragment : Fragment() {
                 //ELEMENT CLICK MANAGER
                 when(quotesAdapter.getData(position).function)
                 {
-                    "timer"-> showTimePickerDialog()
                     "dimmer"-> showDimmerFragment()
                     "sos"-> sosBehaviour()
                     "onoff"-> onoffBehaviour()
@@ -168,7 +167,7 @@ class MenuFragment : Fragment() {
                 if (location != null) {
                     latitude = location.latitude.toString()
                    longitude = location.longitude.toString()
-                    Toast.makeText(context, latitude+"e"+longitude, Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, latitude+"/"+longitude, Toast.LENGTH_LONG).show()
                     val id = reference.push().key
 
                     if (id != null) {
@@ -199,14 +198,6 @@ class MenuFragment : Fragment() {
     //val action: NavDirections = MenuFragmentDirections.actionMenuFragmentToDimmerFragment()
     //findNavController().navigate(action)
        // TODO Do layout
-    }
-    //TIMER FUNCS
-    private fun showTimePickerDialog() {
-        val timePicker = TimePickerFragment { onTimeSelected(it) }
-        timePicker.show(parentFragmentManager, "timePicker")
-    }
-    private fun onTimeSelected(time: String) {
-        Toast.makeText(context, time, Toast.LENGTH_SHORT).show()
     }
 
 }
